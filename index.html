@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+        <h1 id = "expense_tracker">Expense Tracker 1.0</h1>
+        <hr>
+
+       <div id = "flex">
+        <div class="budget">
+            <h2 class="totalBudget">Total Budget : <span id = "totalBudget">0</span></h2>
+            <h2 class="currentBalance">Current Balance : <span id = "currentBalance">0</span></h2><br>
+            <h2>Add money to budget</h2>
+            <input type = "number" placeholder="add money" id = "money">
+            <button onclick="addMoney()" id = "addMoney">Add Money</button>
+            <h2>Add Expenses</h2>
+            <input type = "text" placeholder="expense name" id = "expenseName"><br><br>
+            <input type = "number" placeholder="add expense" id = "expenseAmount"><br><br><br>
+                <button onclick="addExpense()" id = "addExpense">Add Expense</button>
+        </div>
+        <div class = "addedExpenses">
+            <h2>Added Expenses</h2>
+            <div id = "addedExpenses">
+
+            </div>
+        </div>
+       </div>
+        
+    <script src="script.js" type="text/javascript"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper"> 
+        <div class="image">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtNHQpY19gGmBEPYXZbo7k6sW7dK3ocn1c4g&usqp=CAU" alt = "To do Image" />
+            <div id="overlay"></div>
+        </div> 
+        <h1 id = "expense_tracker">Expense Tracker 1.0</h1>
+        <hr>
+
+       <div id = "flex">
+        <div class="budget">
+            <h2 class="totalBudget">Total Budget : <span id = "totalBudget">0</span></h2>
+            <h2 class="currentBalance">Current Balance : <span id = "currentBalance">0</span></h2><br>
+            <h2>Add money to budget</h2>
+            <input type = "number" placeholder="add money" id = "money">
+            <button onclick="addMoney()" id = "addMoney">Add Money</button>
+            <h2>Add Expenses</h2>
+            <input type = "text" placeholder="expense name" id = "expenseName"><br><br>
+            <input type = "number" placeholder="add expense" id = "expenseAmount"><br><br><br>
+                <button onclick="addExpense()" id = "addExpense">Add Expense</button>
+        </div>
+        <div class = "addedExpenses">
+            <h2>Added Expense</h2>
+            <div id = "addedExpenses">
+
+            </div>
+        </div>
+       </div>
+         
+
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+    
+</body>
+</html> -->

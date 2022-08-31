@@ -1,0 +1,183 @@
+ body{
+    background: linear-gradient( 360deg, rgba(0, 0, 0, 0.719), rgba(65, 56, 8, 0.774)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtNHQpY19gGmBEPYXZbo7k6sW7dK3ocn1c4g&usqp=CAU");
+    color: white; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover; 
+}
+
+.image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: rgba(57, 48, 31, 0.3);
+   
+} 
+ .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+} 
+#expense_tracker{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    flex-direction: row-reverse;
+    font-size: 50px;
+    /* padding-top: 2%; */
+    font-weight: 800;
+    
+}
+#flex{
+    display: flex;
+    margin-left: 100px;
+    width: 100%;
+}
+h2{
+    font-size: 30px;
+    color: white;
+}
+.budget{
+    height: 100%;
+    flex: 1;
+    -webkit-box-shadow: 13px 29px 79px -1px rgba(251, 233, 233, 0.63);
+    -moz-box-shadow: 13px 29px 79px -1px rgba(247, 241, 241, 0.63);
+    box-shadow: 13px 29px 79px -1px rgba(255,255,255,0.63);
+    /* background: rgba(8, 8, 8, 0.3); */
+    background: transparent;
+    padding: 50px; 
+    border-radius: 100px;
+    
+}
+.budget input{
+    padding: 10px;
+    border-radius: 5px 0px;
+    border: none;
+    outline: none;
+} 
+.budget #money{
+    border-radius: 8px 0px 0px 8px;
+}
+.budget #addMoney{
+    border-radius: 0px 8px 8px 0px;
+    padding: 10px;
+    margin-left: -3px;
+    outline: none;
+    border: none;
+}
+.budget #addMoney:hover{
+    background-color: rgba(65, 65, 8, 0.774);
+    color: white;
+    transition: 1s all;
+}
+#expenseName, #expenseAmount{
+    width: 280px;
+}
+.budget #addExpense{
+    width: 100px;
+    padding: 7px;
+    border-radius: 10px 0px;
+    border: none;
+    outline: none;
+    margin-left: 90px;
+}
+.budget #addExpense:hover{
+    background-color: rgba(65, 65, 8, 0.774);
+    color: white;
+    transition: 1s all;
+}
+.addedExpenses{
+    flex: 3;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.addedExpenses h2{
+    font-size: 40px;
+    display: flex;
+    padding-left: 200px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 2px red solid;
+    overflow: hidden;
+     background: rgba(57, 48, 31, 0.3); 
+}
+.image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px blue solid;
+    z-index: -1;
+    background-color: black;
+} 
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border: 2px green solid;
+}
+#overlay{
+    background-color: rgba(65, 56,8, 0.774);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.774));
+}
+#expense_tracker{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    margin: 10px 0;
+    border: 2px orangered solid;
+    
+}
+#flex{
+    display: flex;
+}
+h2{
+    font-size: 30px;
+    color: white;
+}
+.budget{
+    height: 100%;
+    -webkit-box-shadow: 13px 29px 79px -1px rgba(251, 233, 233, 0.63);
+    -moz-box-shadow: 13px 29px 79px -1px rgba(247, 241, 241, 0.63);
+    box-shadow: 13px 29px 79px -1px rgba(255,255,255,0.63);
+    background: rgba(8, 8, 8, 0.3);
+    background: transparent;
+    padding: 50px 50px;
+    border-radius: 100px;
+}
+.budget input{
+    padding: 10px;
+    border-radius: 5px 0px;
+    border: none;
+    outline: none;
+} */
+
